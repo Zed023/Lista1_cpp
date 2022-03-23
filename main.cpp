@@ -37,11 +37,11 @@ int main(int argc, char *argv[])
                         unsigned int m = arr->liczba(k);
                         cout << m << endl;
                     }
-            }
-            catch (exception)
-            {
-                cout << argv[i] << " - nieprawidłowa dana" << endl;
-            }
+                }
+                catch (exception)
+                {
+                    cout << argv[i] << " - nieprawidłowa dana" << endl;
+                }
         }
         delete arr;
         }
